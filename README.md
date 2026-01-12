@@ -1,2 +1,4 @@
 # r-programming-assignments
-Repository for R Programming Assignments.
+Name - Elston Miller 
+Course Number - LIS 4370
+Description - Repository for R Programming Assignments
