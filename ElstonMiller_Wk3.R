@@ -1,5 +1,5 @@
 # Create Vectors
-Name <- c("Jeb", "Donald", "Ted", "Marco", "Carly", "Hillary", "Berine")
+Name <- c("Jeb", "Donald", "Ted", "Marco", "Carly", "Hillary", "Bernie")
 
 ABC_political_poll_results <- c(4, 62, 51, 21, 2, 14, 15)
 
