@@ -8,6 +8,15 @@ finalDecision <- c(0,1,0,1,0,1,0,1,1,1)
 # Compile into a DF
 health <- data.frame(freq,bloodp,first,second,finalDecision)
 
+# Plot "freq"
+boxplot(health$freq,
+        main = "Frequency Box Plot",
+        ylab = "Frequency")
+hist(health$freq,
+     main = "Frequency Histogram",
+     xlab = "Frequency",
+     ylab = "Count")
+
 # Plot "bloodp"
 boxplot(health$bloodp,
         main = "Blood Pressure Box Plot",
