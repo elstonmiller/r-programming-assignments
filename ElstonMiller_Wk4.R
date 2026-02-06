@@ -48,3 +48,22 @@ hist(health$second)
 # Plot "finalDecision"
 # boxplot(health$finalDecision)
 hist(health$finalDecision)
+
+
+
+# Additional Insight - Scatter Plot
+health$finalfact <- factor(health$finalDecision, 
+                           levels = c(0,1),
+                           labels = c("Low", "High"))
+
+ggplot(health, aes(x = bloodp, y = freq, color = finalfact))+
+  geom_point(size = 4)+
+  scale_color_manual(
+    values = c("Low" = "forestgreen", 
+               "High" = "red"))+
+  labs(
+    title = "Impact of Initial Blood Pressure on MD decision",
+    x = "Initial Blood Pressure",
+    y = "Visit Frequency",
+    color = "MD's Final Decision"
+  )
