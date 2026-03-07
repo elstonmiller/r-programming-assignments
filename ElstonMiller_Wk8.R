@@ -2,7 +2,7 @@
 library(plyr)
 
 # Load data
-Student_assignment_6 <- read.table("Assignment 6 Dataset.txt", header = TRUE, sep = ",")
+Student_assignment_6 <- read.table("ElstonMiller_Wk8Dataset.txt", header = TRUE, sep = ",")
 
 
 # Calculate gendered grade avg's and put them back in the table
